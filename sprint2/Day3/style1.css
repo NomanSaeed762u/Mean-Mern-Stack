@@ -1,0 +1,48 @@
+.Data1{
+    border: 2px solid  black;
+
+    padding: 50px;
+}
+ .Data1 .name{
+    margin-bottom: -10px;
+    text-shadow:0cqmax;
+    
+}
+.Data1 .Elec{
+    font-size: small;
+    margin-bottom: -40px;
+}
+.Data1 .Data{
+    float: right;
+    /* margin-left: 350px; */
+    margin-top: 0px;
+    font-size: small;
+} 
+.Data1 .Data .ph{
+    margin-bottom: -12px;
+}
+.Data1 .Data .LinkedIn{
+    margin-bottom: -12px;
+}
+.Data1 .Data .G{
+    margin-bottom: -12px;
+}
+.Data1 .Sum{
+    margin-top: 70px;
+}
+.Data1 .Sum .L1{
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+.Data1 .Sum .L2{
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+.Data1 .Sum .L3{
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+.Data1 .Sum .L4{
+    margin-top: -20px;
+    margin-bottom: -10px;
+}

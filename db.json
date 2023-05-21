@@ -1,27 +1,25 @@
 {
-  "employees": [
+  "users": [
     {
       "id": 1,
-      "first_name": "Sebastian",
-      "last_name": "Eschweiler",
-      "email": "sebastian@codingthesmartway.com"
+      "name": "John Doe",
+      "email": "johndoe@example.com"
     },
     {
       "id": 2,
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "steve@codingthesmartway.com"
-    },
-    {
-      "id": 3,
-      "first_name": "Ann",
-      "last_name": "Smith",
-      "email": "ann@codingthesmartway.com"
+      "name": "Jane Smith",
+      "email": "janesmith@example.com"
     },
     {
       "name": "basit",
       "email": "khan@khan",
-      "id": 4
+      "id": 3
+    },
+    
+    {
+      "name": "sajjid",
+      "email": "sajjid@khan",
+      "id": 5
     }
   ]
 }

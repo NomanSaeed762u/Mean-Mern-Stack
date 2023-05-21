@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container .contact{
+    float: right;
+    /* margin-left: 350px; */
+    /* margin-top: 0px;
+    font-size: small; */
+}
+
+.name {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.title {
+    font-size: 18px;
+    color: #777;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.contact-info {
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+.summary{
+    margin-top: 70px;
+}
+.summary p {
+    line-height: 1.5;
+}
+
+.education p,
+.experience p {
+    margin-bottom: 5px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.skills ul li:last-child {
+    margin-right: 0;
+}

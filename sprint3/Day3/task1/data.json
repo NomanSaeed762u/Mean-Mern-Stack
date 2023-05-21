@@ -4,6 +4,26 @@
       "id": 1,
       "title": "json-server",
       "author": "typicode"
+    },
+    {
+      "name": "Hanain",
+      "email": "hasnain@khan",
+      "id": 2
+    },
+    {
+      "name": "Amran",
+      "email": "Amran@khan",
+      "id": 3
+    },
+    {
+      "name": "Husan",
+      "email": "Husan@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Hasnian",
+      "email": "Hasnian@gmail.com",
+      "id": 5
     }
   ],
   "comments": [

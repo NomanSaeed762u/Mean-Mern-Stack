@@ -1,0 +1,136 @@
+.production-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  
+  color: #fff;
+}
+
+.main{
+  /* background-image: url("https://forcam.com/app/uploads/2021/10/la-gestion-de-la-production.jpg"); */
+  /* background-size: cover; */
+  background-position: center;
+  background-position-y: top;
+  
+  max-width: 1500px;
+  max-height: 1000px;
+}
+
+  
+  .production-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: #335d78; /* Updated color to a lighter shade of navy */
+    text-align: center;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  .input,
+  .select,
+  .datepicker {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+  
+  .submitted-data {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .submitted-data h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .submitted-data p {
+    margin-bottom: 5px;
+  }
+
+  h2{
+    text-align: center;
+    color: #0056b3;
+  }
+  
+  .row{
+    align-items: center;
+    width: auto;
+    background-image: url("/public/images/pexell.jpg");
+  }
+  .col-4{
+    align-items: center;
+    width: 350px;
+    height: 1000px;
+  }
+  .card{
+    padding: 5px;
+    background-color: whitesmoke;
+    border-color: rgb(0, 86, 179);
+  }
+.card-heading{
+  text-align: center;
+  height: 20px;
+  /* text-size-adjust: 50px; */
+}
+.card-number{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #0056b3;
+  }
+.bar{
+  background-color: whitesmoke;
+
+}.barhd{
+  background-color: whitesmoke;
+  margin-top: 10px;
+  border-width: 10px solid;
+  border-color: black;
+}
+.pie{
+  background-color: whitesmoke;
+  /* height: 200px; */
+ 
+}
+.col-lg-4{
+  align-content: center;
+  border-color: #0056b3;
+}
+
+
+
+
+
+
+
+  /* <SingleChart labels={chart3Labels} data={chart3Data} /> */

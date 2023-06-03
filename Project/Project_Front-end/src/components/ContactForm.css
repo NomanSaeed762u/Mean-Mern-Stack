@@ -1,0 +1,158 @@
+.top-container {
+  
+  background-color: #f2f2f2;
+  background-size: cover;
+  height: 100vh;
+}
+
+.one-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap the content to new lines on smaller screens */
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+.Contact {
+  position: absolute;
+  top: 200px;
+  right: 400px;
+}
+
+.contact-item img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 250px;
+  left: 100px;
+}
+
+.contact-details {
+  text-align: left;
+  justify-content: right;
+  margin-left: 20px; /* Adjust the margin as needed */
+  position: absolute;
+  top: 280px;
+  right: 350px;
+}
+
+
+
+.line {
+  position: relative;
+  top: 250px;
+  right: -110px;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 1200px) {
+  .one-container {
+    flex-direction: column; 
+  }
+  .Contact {
+    margin-bottom: 20px auto;
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  
+  .contact-details {
+    margin-bottom: 20px auto; 
+    position: static;
+    top: auto;
+    right: auto;
+  }
+  
+  .line {
+    position: static;
+    top: auto;
+    right: auto;
+    margin-top: 20px; 
+  }
+  .social-icons img {
+    margin-bottom: 20px auto;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .one-container {
+    flex-direction: column; 
+  }
+  .Contact {
+    margin-bottom: 20px auto;
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  
+  .contact-details {
+    margin-bottom: 20px auto; 
+    position: static;
+    top: auto;
+    right: auto;
+  }
+  
+  .line {
+    position: static;
+    top: auto;
+    right: auto;
+    margin-top: 20px; 
+  }
+  .social-icons img {
+    margin-bottom: 20px auto;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .one-container {
+    flex-direction: column; 
+  }
+  .Contact {
+    margin-bottom: 20px auto;
+    position: relative;
+    top: auto;
+    right: auto;
+  }
+  
+  .contact-details {
+    margin-bottom: 20px auto; 
+    position: static;
+    top: auto;
+    right: auto;
+  }
+  
+  .line {
+    position: static;
+    top: auto;
+    right: auto;
+    margin-top: 20px; 
+  }
+  .social-icons img {
+    margin-bottom: 20px auto;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+}

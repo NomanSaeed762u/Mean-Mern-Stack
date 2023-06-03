@@ -64,6 +64,25 @@ app.delete('/students/:num',(req,res)=>{
 
 
 
+app.get('/message/:number', (req, res) => {
+    console.log('Hello, From NodeJs');
+    let msg;
+    const result= req.params.number;
+    if (result%2==0){
+        msg = "The Number is Even"
+    }
+    else{
+        msg ="The Number is odd"
+    }
+    res.send({
+        message : "Hello from NodeJs",
+        params: result,
+        msg
+    })
+  });
+
+
+
 // app.post('/submit', (req, res) => {
 //     const name = req.body.name;
 //     const email = req.body.email;
